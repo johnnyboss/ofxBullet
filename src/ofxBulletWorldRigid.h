@@ -64,6 +64,8 @@ public:
 	void mousePressed( ofMouseEventArgs &a);
 	void mouseReleased( ofMouseEventArgs &a);
 	void mouseScrolled( ofMouseEventArgs &a);
+	void mouseEntered(ofMouseEventArgs &a);
+	void mouseExited(ofMouseEventArgs &a); 
 	
 	btBroadphaseInterface*					broadphase;
 	btCollisionConfiguration*               collisionConfig;

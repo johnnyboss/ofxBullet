@@ -412,3 +412,11 @@ void ofxBulletWorldRigid::mouseReleased( ofMouseEventArgs &a ) {
 void ofxBulletWorldRigid::mouseScrolled( ofMouseEventArgs &a ) {
     
 }
+
+void ofxBulletWorldRigid::mouseEntered(ofMouseEventArgs & a)
+{
+}
+
+void ofxBulletWorldRigid::mouseExited(ofMouseEventArgs & a)
+{
+}
